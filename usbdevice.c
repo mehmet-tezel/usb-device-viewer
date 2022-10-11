@@ -1,8 +1,8 @@
 #include "usbdevice.h"
 
-#include <cstdio>
-#include <cstdint>
-#include <cstring>
+#include <stdio.h>
+#include <stdint.h>
+#include <string.h>
 
 struct Device CreateEmptyDevice() {
 	struct Device my_device;
